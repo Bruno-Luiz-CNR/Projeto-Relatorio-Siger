@@ -36,6 +36,7 @@ O script é encerrado após a conclusão da iteração nas páginas de resultado
 Em resumo, o código automatiza a tarefa de consultar equipamentos em uma plataforma web específica, realizando o login, navegando até a seção desejada, aplicando filtros e extraindo informações dos equipamentos listados nas páginas de resultados. Este script pode ser útil para quem precisa realizar essa tarefa repetitiva de forma automatizada.
 
 
+![image](https://github.com/Bruno-Luiz-CNR/Projeto-Relatorio-Siger/assets/115126390/4b122019-a024-478c-93c3-fe4487ac7f7c)
 
 
 
