@@ -1,15 +1,13 @@
 import mysql.connector
 import logging
 
-logging.basicConfig(filename='log_insercao.log', level=logging.INFO)
-
 
 def conexao_banco():
     config = {
         'user': 'root',
         'password': 'Bcllick2024@',
         'host': 'localhost',
-        'database': 'relpalacas',
+        'database': 'api_siger',
         'raise_on_warnings': True,
     }
 
@@ -23,3 +21,4 @@ def conexao_banco():
         logging.error(f'Erro durante a conexão com o banco de dados: {err}')
 
     return None, None
+
