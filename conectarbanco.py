@@ -7,9 +7,9 @@ logging.basicConfig(filename='log_insercao.log', level=logging.INFO)
 def conexao_banco():
     config = {
         'user': 'root',
-        'password': 'Bcllick2024@',
+        'password': 'login',
         'host': 'localhost',
-        'database': 'relpalacas',
+        'database': 'db',
         'raise_on_warnings': True,
     }
 
