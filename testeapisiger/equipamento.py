@@ -11,7 +11,7 @@ def obter_token():
         "Content-Type": "application/json"
     }
     data = {
-        "token": "ABE9A669-6A98-4C54-B758-784917B80871"
+        "token": "seu token"
     }
 
     response = requests.post(url, headers=headers, data=json.dumps(data))
